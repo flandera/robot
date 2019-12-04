@@ -11,7 +11,7 @@ Simple php application simulating a cleaning robot.
 - run Composer install
 
 From CLI run commands:
-php Robot.php clean --floor=carpet --area=70 -vvv
+`php Robot.php clean --floor=carpet --area=70 -vvv`
 
 ##Test
 run test from commandline inside container<br/>

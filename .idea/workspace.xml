@@ -2,169 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="535163a7-b50b-4b4d-a835-90111b08a8f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php-docker-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/robot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Robot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/AbstractRobot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/CleanCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/CleaningRobot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Robot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/RobotTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/container/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/container/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/container/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/container/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/container/src/ContainerExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/container/src/ContainerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/container/src/NotFoundExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/AbstractLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LogLevel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerAwareInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerAwareTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/NullLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/TestLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/psr/log/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Application.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/HelpCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/ListCommand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/LockableTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/CommandLoader/CommandLoaderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/CommandLoader/ContainerCommandLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/CommandLoader/FactoryCommandLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/ConsoleEvents.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/DependencyInjection/AddConsoleCommandPass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/Descriptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/DescriptorInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/JsonDescriptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/MarkdownDescriptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/TextDescriptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/XmlDescriptor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleCommandEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleErrorEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Event/ConsoleTerminateEvent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/EventListener/ErrorListener.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Exception/CommandNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Exception/ExceptionInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Exception/InvalidArgumentException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Exception/InvalidOptionException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Exception/LogicException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Exception/NamespaceNotFoundException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Exception/RuntimeException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyleStack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/WrappableOutputFormatterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/DebugFormatterHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/DescriptorHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/Dumper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/FormatterHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/Helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/HelperSet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/InputAwareHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProcessHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProgressBar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/ProgressIndicator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/SymfonyQuestionHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/Table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableCell.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableRows.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableSeparator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableStyle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/ArgvInput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/ArrayInput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/Input.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputArgument.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputAwareInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputDefinition.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/InputOption.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/StreamableInputInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Logger/ConsoleLogger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/BufferedOutput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleOutputInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleSectionOutput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/NullOutput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/Output.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/OutputInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ConfirmationQuestion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/Question.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Resources/bin/hiddeninput.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Style/OutputStyle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Style/StyleInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Style/SymfonyStyle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Terminal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Tester/ApplicationTester.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Tester/CommandTester.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/Tester/TesterTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/console/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Mbstring.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php73/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php73/Php73.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php73/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php73/Resources/stubs/JsonException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php73/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php73/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/ResetInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/ServiceLocatorTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/ServiceProviderInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/ServiceSubscriberInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/ServiceSubscriberTrait.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/Test/ServiceLocatorTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/symfony/service-contracts/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,12 +133,26 @@
       <workItem from="1575284688540" duration="20276000" />
       <workItem from="1575360774549" duration="1988000" />
       <workItem from="1575447197556" duration="5058000" />
-      <workItem from="1575452990503" duration="359000" />
+      <workItem from="1575452990503" duration="1035000" />
     </task>
+    <task id="LOCAL-00001" summary="INITIAL COMMIT">
+      <created>1575453433422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575453433422</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="INITIAL COMMIT" />
+    <option name="LAST_COMMIT_MESSAGE" value="INITIAL COMMIT" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="505" y="358" key="#CLI_Interpreters" timestamp="1575293011208">
@@ -334,6 +187,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="837" y="242" key="#xdebugger.evaluate/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575301643758" />
+    <state x="585" y="134" key="CommitChangelistDialog2" timestamp="1575453431440">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="585" y="134" key="CommitChangelistDialog2/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575453431440" />
     <state width="518" height="466" key="DebuggerActiveHint" timestamp="1575301452394">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -402,6 +259,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="426" y="346" key="SettingsEditor/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575293013302" />
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1575453476308">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575453476308" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,7 +279,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/lib/CleaningRobot.php</url>
-          <line>69</line>
+          <line>82</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -428,7 +289,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php-line-method">
           <url>file://$PROJECT_DIR$/lib/CleaningRobot.php</url>
-          <line>62</line>
+          <line>75</line>
           <properties>
             <option name="className" value="\Robot\CleaningRobot" />
             <option name="methodName" value="recharge" />
@@ -437,7 +298,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php-line-method">
           <url>file://$PROJECT_DIR$/lib/CleaningRobot.php</url>
-          <line>43</line>
+          <line>56</line>
           <properties>
             <option name="className" value="\Robot\CleaningRobot" />
             <option name="methodName" value="clean" />
