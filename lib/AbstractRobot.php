@@ -4,6 +4,8 @@
 namespace Robot;
 
 
+use Symfony\Component\Console\Logger\ConsoleLogger;
+
 abstract class AbstractRobot
 {
 	/**
@@ -15,11 +17,6 @@ abstract class AbstractRobot
 	 * Time to recharge battery in seconds
 	 */
 	const BATTERY_CHARGE_TIME = 30;
-
-	/**
-	 * floor surface hard
-	 */
-	const HARD = 'hard';
 
 	/**
 	 * floor surface carpet
@@ -59,4 +56,14 @@ abstract class AbstractRobot
 	 * @var int
 	 */
 	protected $returnCode = self::RETURN_CODE_ERROR;
+
+	/**
+	 * @var ConsoleLogger
+	 */
+	protected $logger;
+
+	/**
+	 * @var int
+	 */
+	protected $totalTime = 0;
 }

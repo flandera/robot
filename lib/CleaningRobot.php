@@ -9,16 +9,6 @@ use Symfony\Component\Console\Logger\ConsoleLogger;
 class CleaningRobot extends AbstractRobot implements Robot
 {
 	/**
-	 * @var ConsoleLogger
-	 */
-	private $logger;
-
-	/**
-	 * @var int
-	 */
-	private $totalTime;
-
-	/**
 	 * CleaningRobot constructor.
 	 * @param ConsoleLogger $logger
 	 * @param int $area area to clean
@@ -51,35 +41,38 @@ class CleaningRobot extends AbstractRobot implements Robot
 	}
 
 	/**
-	 * @param int $areaCleaned already cleaned area
 	 * @return array
 	 */
-	public function clean($areaCleaned = 0)
+	public function clean()
 	{
-		for (; $areaCleaned < $this->area; $areaCleaned += $this->speed) {
-			if ($this->cleaningTime > self::BATTERY_LIFE_TIME) {
-				$this->recharge($areaCleaned -= $this->speed);
-			}
-			$this->logger->info('Cleaned : ' . $areaCleaned . ' meter');
+		$areaCleaned = 0;
+		while ($areaCleaned < $this->area) {
 			$this->cleaningTime++;
 			$this->totalTime++;
+			$areaCleaned += $this->speed;
+			$this->logger->info('Cleaning : ' . $areaCleaned . ' meter');
+			if ($this->cleaningTime === self::BATTERY_LIFE_TIME) {
+				$this->recharge();
+			}
 		}
 		$this->logger->info('Finished cleaning : ' . $areaCleaned . ' meters');
 		$this->returnCode = self::RETURN_CODE_SUCCESS;
-		return [$areaCleaned, $this->totalTime];
-//		exit(0);
+		return [(int)$areaCleaned, $this->totalTime];
 	}
 
 	/**
-	 * @param int $areaCleaned already cleaned area
+	 * @return int
 	 */
-	private function recharge($areaCleaned = 0)
+	private function recharge()
 	{
-		for ($chargingTime = 0; $chargingTime < self::BATTERY_CHARGE_TIME; $chargingTime++) {
-			$this->logger->info('Charging ' . ($chargingTime + 1) . ' seconds');
+		$chargingTime = 0;
+		while ($chargingTime < self::BATTERY_CHARGE_TIME) {
+			$chargingTime++;
+			$this->logger->info('Charging ' . ($chargingTime) . ' second/s');
 		}
 		$this->cleaningTime = 0;
+		$this->totalTime += $chargingTime;
 		$this->logger->info('Charged for: ' . $chargingTime . ' seconds. Fully charged, going to clean...');
-		$this->clean($areaCleaned);
+		return $chargingTime;
 	}
 }

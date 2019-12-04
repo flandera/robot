@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="535163a7-b50b-4b4d-a835-90111b08a8f1" name="Default Changelist" comment="">
+    <list default="true" id="535163a7-b50b-4b4d-a835-90111b08a8f1" name="Default Changelist" comment="readme change, added gitignore">
+      <change afterPath="$PROJECT_DIR$/tests/RobotCarpetTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/RobotHardTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/robot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/robot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AbstractRobot.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AbstractRobot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/CleaningRobot.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/CleaningRobot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/RobotTest.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,42 +38,42 @@
   <component name="PhpWebServerValidation" path_to_validation_script="C:\www\robot\app" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1:86" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="webdevops/php-apache-dev:7.3">
     <include_path>
-      <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
       <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
       <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
       <path value="$PROJECT_DIR$/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
     </include_path>
   </component>
   <component name="ProjectId" id="1UQN6iD7Ghzmn0jMineVGtZVIL7" />
@@ -78,24 +84,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Constants" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dockerPHP52" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\www\robot\lib\Commands" />
-      <recent name="C:\www\robot" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\www\robot\tests" />
       <recent name="C:\www\robot\lib" />
       <recent name="C:\www\robot" />
       <recent name="C:\www\robot\config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\www\robot\tests" />
+      <recent name="C:\www\robot\lib\Commands" />
+      <recent name="C:\www\robot" />
     </key>
   </component>
   <component name="RunManager">
@@ -133,7 +141,7 @@
       <workItem from="1575284688540" duration="20276000" />
       <workItem from="1575360774549" duration="1988000" />
       <workItem from="1575447197556" duration="5058000" />
-      <workItem from="1575452990503" duration="1035000" />
+      <workItem from="1575452990503" duration="5612000" />
     </task>
     <task id="LOCAL-00001" summary="INITIAL COMMIT">
       <created>1575453433422</created>
@@ -142,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575453433422</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="readme change, added gitignore">
+      <created>1575454228834</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575454228834</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +165,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="INITIAL COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="INITIAL COMMIT" />
+    <MESSAGE value="readme change, added gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme change, added gitignore" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -171,10 +187,14 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="640" y="267" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575452510867" />
-    <state x="662" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575290366663">
+    <state x="662" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575457694207">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="662" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575290366663" />
+    <state x="662" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575457694207" />
+    <state x="690" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1575458175874">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="294" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458175874" />
     <state x="640" y="157" width="570" height="923" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1575292956054">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -187,10 +207,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="837" y="242" key="#xdebugger.evaluate/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575301643758" />
-    <state x="585" y="134" key="CommitChangelistDialog2" timestamp="1575453431440">
+    <state x="585" y="134" key="CommitChangelistDialog2" timestamp="1575454352127">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="585" y="134" key="CommitChangelistDialog2/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575453431440" />
+    <state x="585" y="134" key="CommitChangelistDialog2/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575454352127" />
     <state width="518" height="466" key="DebuggerActiveHint" timestamp="1575301452394">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -199,54 +219,54 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575366240722" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1575304997695">
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997695" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1575304997695">
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.center/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997695" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1575304997695">
+    <state width="1877" height="363" key="GridCell.Tab.0.center/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1575458462545">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.left/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997695" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1575304997695">
+    <state width="1877" height="363" key="GridCell.Tab.0.left/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462545" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.0.right/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997695" />
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1575304997696">
+    <state width="1877" height="363" key="GridCell.Tab.0.right/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.bottom/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997696" />
-    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1575304997695">
+    <state width="1877" height="363" key="GridCell.Tab.1.bottom/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
+    <state width="1877" height="363" key="GridCell.Tab.1.center" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.center/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997695" />
-    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1575304997695">
+    <state width="1877" height="363" key="GridCell.Tab.1.center/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
+    <state width="1877" height="363" key="GridCell.Tab.1.left" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.left/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997695" />
-    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1575304997695">
+    <state width="1877" height="363" key="GridCell.Tab.1.left/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
+    <state width="1877" height="363" key="GridCell.Tab.1.right" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.1.right/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997695" />
-    <state width="1877" height="363" key="GridCell.Tab.2.bottom" timestamp="1575304997696">
+    <state width="1877" height="363" key="GridCell.Tab.1.right/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
+    <state width="1877" height="363" key="GridCell.Tab.2.bottom" timestamp="1575458462547">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.bottom/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997696" />
-    <state width="1877" height="363" key="GridCell.Tab.2.center" timestamp="1575304997696">
+    <state width="1877" height="363" key="GridCell.Tab.2.bottom/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462547" />
+    <state width="1877" height="363" key="GridCell.Tab.2.center" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.center/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997696" />
-    <state width="1877" height="363" key="GridCell.Tab.2.left" timestamp="1575304997696">
+    <state width="1877" height="363" key="GridCell.Tab.2.center/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
+    <state width="1877" height="363" key="GridCell.Tab.2.left" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.left/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997696" />
-    <state width="1877" height="363" key="GridCell.Tab.2.right" timestamp="1575304997696">
+    <state width="1877" height="363" key="GridCell.Tab.2.left/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
+    <state width="1877" height="363" key="GridCell.Tab.2.right" timestamp="1575458462546">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="363" key="GridCell.Tab.2.right/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575304997696" />
+    <state width="1877" height="363" key="GridCell.Tab.2.right/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575458462546" />
     <state x="790" y="354" key="NewPhpClassDialog" timestamp="1575448949435">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -255,14 +275,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="794" y="463" key="NewPhpFileDialog/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575285097462" />
+    <state x="743" y="312" key="PhpMappingAdvancedResolveDialog" timestamp="1575456307476">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="312" key="PhpMappingAdvancedResolveDialog/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575456307476" />
     <state x="426" y="346" key="SettingsEditor" timestamp="1575293013302">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="426" y="346" key="SettingsEditor/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575293013302" />
-    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1575453476308">
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2" timestamp="1575454233155">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="261" key="Vcs.Push.Dialog.v2/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575453476308" />
+    <state x="552" y="261" key="Vcs.Push.Dialog.v2/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575454233155" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1575456362484">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/3840.304.1366.768/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1575456362484" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -274,36 +302,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/lib/CleaningRobot.php</url>
-          <line>30</line>
+          <line>20</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/lib/CleaningRobot.php</url>
-          <line>82</line>
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/lib/CleanCommand.php</url>
           <line>44</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/lib/CleaningRobot.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="php-line-method">
           <url>file://$PROJECT_DIR$/lib/CleaningRobot.php</url>
-          <line>75</line>
+          <line>65</line>
           <properties>
             <option name="className" value="\Robot\CleaningRobot" />
             <option name="methodName" value="recharge" />
           </properties>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/lib/CleaningRobot.php</url>
-          <line>56</line>
-          <properties>
-            <option name="className" value="\Robot\CleaningRobot" />
-            <option name="methodName" value="clean" />
-          </properties>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
