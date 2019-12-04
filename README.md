@@ -10,10 +10,10 @@ Simple php application simulating a cleaning robot.
 - cd /var/www/robot
 - run Composer install
 
-From CLI run commands:
+From CLI run commands:<br/>
 `php Robot.php clean --floor=carpet --area=70 -vvv`
 
-##Test
+## Test
 run test from commandline inside container<br/>
 `./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/`
 
