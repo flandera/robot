@@ -1,0 +1,21 @@
+---
+version: '3'
+services:
+  robot:
+    image: webdevops/php-apache-dev:7.3
+    environment: ['WEB_DOCUMENT_ROOT=/var/www/robot/app', 'WEB_DOCUMENT_INDEX=/var/www/robot/app/index.php', 'PHP_IDE_CONFIG=serverName=robot', 'PHP_DEBUGGER=xdebug', 'XDEBUG_REMOTE_AUTOSTART=1', 'XDEBUG_REMOTE_ENABLE=1', 'XDEBUG_REMOTE_CONNECT_BACK=0', 'XDEBUG_REMOTE_HOST=62.109.143.216', 'XDEBUG_REMOTE_PORT=9007', 'XDEBUG_IDEKEY=PHPSTORM', 'PM_MAX_REQUESTS=500']
+    volumes:
+      - ./:/var/www/robot:rw
+    ports: ['127.0.0.1:86:80']
+    networks:
+      - stack
+
+  composer:
+    image: composer/composer
+    volumes:
+      - ./:/var/www/uid:rw
+    working_dir: /var/www/uid
+    networks: ['stack']
+
+networks:
+  stack: {}

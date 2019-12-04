@@ -1,0 +1,27 @@
+{
+    "name": "tom/robot",
+    "description": "simple PHP console app",
+    "type": "project",
+    "require": {
+        "php": ">=7.3",
+        "symfony/console": "^5.0",
+        "psr/log": "^1.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Robot\\": "lib/",
+            "App\\": "app/",
+            "Psr\\": "psr/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomas Flandera",
+            "email": "flandera@volny.cz"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
